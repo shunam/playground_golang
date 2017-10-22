@@ -6,13 +6,11 @@ import (
 	"finance/models"
 	"strconv"
 	"strings"
-
-	"github.com/astaxie/beego"
 )
 
 //  UsersController operations for Users
 type UsersController struct {
-	beego.Controller
+	BaseController
 }
 
 // URLMapping ...
