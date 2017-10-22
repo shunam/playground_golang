@@ -16,11 +16,11 @@ func (this *BaseController) Prepare() {
 	this.Data["Stylesheets"] = []string{
 		"https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en",
 		"https://fonts.googleapis.com/icon?family=Material+Icons",
-		"https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css",
+		"/css/material.cyan-light_blue.min.css",
 		"/css/styles.css",
 	}
 
 	this.Data["Javascripts"] = []string{
-		"https://code.getmdl.io/1.3.0/material.min.js",
+		"/js/material.min.js",
 	}
 }
